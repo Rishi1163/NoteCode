@@ -1,5 +1,5 @@
 import React from 'react'
-import background from '../assets/resources/Hero-background-notecode@2x.png'
+import background from '../assets/resources/Hero-Background-notecode@2x.png'
 import logo from '../assets/resources/NoteCodeLogo.svg'
 import CodeEditor from '../components/CodeEditor'
 
