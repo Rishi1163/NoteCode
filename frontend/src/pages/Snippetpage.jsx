@@ -36,7 +36,7 @@ const Snippetpage = () => {
   if (!snippet) return <p className="text-center mt-10 text-red-500">Snippet not found.</p>
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] flex flex-col items-center px-4 py-10 text-white">
+    <div className="min-h-screen bg-gradient-to-r from-purple-500 to-purple-800 flex flex-col items-center px-4 py-10 text-white">
       <h1 className="text-3xl font-bold mb-6 font-poppins drop-shadow-md">Shared Snippet</h1>
       <div className="w-full max-w-5xl shadow-xl rounded-2xl overflow-hidden">
         <AceEditor
