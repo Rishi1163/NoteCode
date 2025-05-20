@@ -32,7 +32,7 @@ const Snippetpage = () => {
     fetchSnippet()
   }, [uuid])
 
-  if (loading) return <p className="text-center mt-10 text-lg text-gray-200">Loading...</p>
+  if (loading) return <p className="text-center mt-10 text-lg text-black">Loading...</p>
   if (!snippet) return <p className="text-center mt-10 text-red-500">Snippet not found.</p>
 
   return (
